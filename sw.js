@@ -10,7 +10,7 @@
  *        → 本次不打断，下次打开生效
  */
 
-const CACHE = 'jingsuan-v4'
+const CACHE = 'jingsuan-v5'
 const PRECACHE = ['./', './index.html']
 
 self.addEventListener('install', (event) => {
