@@ -13,7 +13,7 @@
  * 跨域请求（GitHub API 云同步）直接放行，不进缓存。
  */
 
-const CACHE = 'jingsuan-v8'
+const CACHE = 'jingsuan-v9'
 const PRECACHE = ['./', './index.html']
 
 self.addEventListener('install', (event) => {
